@@ -2,7 +2,6 @@ import 'package:flutter/foundation.dart';
 import 'package:weather_app/src/api/api_repository.dart';
 import 'package:weather_app/src/model/current_weather_data.dart';
 import 'package:weather_app/src/model/five_days_data.dart';
-import 'package:weather_app/src/model/air_quality_data.dart';
 class WeatherService {
   final String city;
 

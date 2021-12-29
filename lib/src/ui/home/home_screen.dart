@@ -151,7 +151,7 @@ class HomeScreen extends StatelessWidget {
                                             MainAxisAlignment.spaceBetween,
                                         children: <Widget>[
                                           Container(
-                                            padding: EdgeInsets.only( left: 50),
+                                            padding: EdgeInsets.only(left: 40),
                                             child: Column(
                                               children: <Widget>[
                                                 Text(
@@ -165,7 +165,7 @@ class HomeScreen extends StatelessWidget {
                                                       .caption
                                                       .copyWith(
                                                         color: Colors.black45,
-                                                        fontSize: 22,
+                                                        fontSize: 18,
                                                         fontFamily:
                                                             'flutterfonts',
                                                       ),
@@ -182,12 +182,13 @@ class HomeScreen extends StatelessWidget {
                                                       .headline2
                                                       .copyWith(
                                                           color: Colors.black45,
+                                                          fontSize: 40,
                                                           fontFamily:
                                                               'flutterfonts'),
                                                 ),
                                                 Text(
                                                   (controller.airQualityData != null)
-                                                      ? 'PM10 116.17 / PM2.5 108.35'
+                                                      ? 'PM10 128.15 / PM2.5 116.71'
                                                       : '',
                                                   style: Theme.of(context)
                                                       .textTheme
